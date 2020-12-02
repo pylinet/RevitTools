@@ -10,8 +10,7 @@ from rpw.ui.forms import FlexForm, Label, ComboBox, TextBox, Separator, Button, 
 
 # Set active document
 
-doc_active = revit.uidoc.ActiveView
-alert = ui.forms.Alert
+doc_active = revit.active_view
 
 # Collectors
 
