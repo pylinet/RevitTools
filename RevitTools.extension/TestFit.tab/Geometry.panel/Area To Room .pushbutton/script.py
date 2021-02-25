@@ -10,7 +10,7 @@ create = revit.doc.Create
 
 # Set active document
 
-doc_active = revit.active_view
+doc_active = revit.uidoc.ActiveView
 
 # Collect area boundary lines in the current view
 
